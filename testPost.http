@@ -1,0 +1,13 @@
+POST http://localhost:3000/veiculo HTTP/1.1
+content-type: application/json
+ 
+{
+    "comprador": "cabal",
+    "vendedor": "liukang",
+    "carro": "astra",
+    "anoCarro": "1998",
+    "marcaCarro": "Volks",
+    "corCarro":"azul",
+    "data": "06/07/2022"
+
+    }
